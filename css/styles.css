@@ -7,3 +7,16 @@ IMG.displayed {
  h1 {
   text-align: center;
   }
+
+  table {
+    border-spacing: 5px 12px;
+    padding: 0 8px 8px 0;
+  }
+
+  table {
+      border-collapse: collapse;
+  }
+
+  td {
+      padding-top: .5em;
+      padding-bottom: .5em;  
