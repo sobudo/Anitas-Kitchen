@@ -19,4 +19,7 @@ IMG.displayed {
 
   td {
       padding-top: .5em;
-      padding-bottom: .5em;  
+      padding-bottom: .5em;
+body {
+  font-family: Open Sans Condensed', sans-serif;
+}
