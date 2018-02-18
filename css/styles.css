@@ -25,10 +25,15 @@ body {
   font-family: Open Sans Condensed', sans-serif;
 }
 
+.column {
+  width: 350px
+  float:left;
+}
+
 .no-wrap-text {
    overflow: hidden;
 }
-
+1
 img.blendedfood {
   float:left;
 }
