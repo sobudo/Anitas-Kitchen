@@ -40,3 +40,19 @@ img.blendedfood {
 .fastfood {
   float: right;
 }
+
+.menu {
+  	background-image: url("/images/foodsBg.jpg")
+  	background-repeat: no-repeat;
+  	height: 50vh;
+  	background-size: cover;
+}
+
+.lastly{
+	background-color: #F15A29;
+	height: 40vh;
+	justify-content:center;
+	text-align: center;
+	padding: 200px ;
+
+}
