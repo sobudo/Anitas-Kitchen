@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <!-- Google Analytics -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+          (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-XXXXX-Y', 'auto');
-  ga('send', 'pageview');
-  </script>
+      ga('create', 'UA-XXXXX-Y', 'auto');
+      ga('send', 'pageview');
+    </script>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
@@ -19,135 +27,156 @@
     <link rel="js/scripts.js" rel="stylesheet" type="text/js">
     <title>Anita's Kitchen</title>
   </head>
+
   <body>
     <img src="images/landing.jpg" alt="Landing image">
     <div class="container">
-    <div class="row">
-    <div class="carousel-caption">
-    <img src="images/logoBig.png" alt="logo">
-      <h1>We Provide The Best Food <br/>At The Right Price</h1>
-    </div>
-  </div>
+      <div class="row">
+        <div class="carousel-caption">
+          <img src="images/logoBig.png" alt="logo">
+          <h1>We Provide The Best Food <br/>At The Right Price</h1>
+        </div>
+      </div>
 
-  <div class="column">
+
+      <div class="row" style="text-align: center; margin-bottom: 50px;">
+        <div class="col-md-3">
+          <div class="row " style="height: 105px;color:#000000;">
+            Happy Hour
+          </div>
+          <div class="row " style="height: 105px;background-color: #F15A29;">
+            Party Time
+          </div>
+        </div>
+        <div class="col-md-3 bg-1" style="background-image:url(images/breakfast.jpg); background-repeat: no-repeat;	overflow:hidden; height: 210px;">
+          <div class="overlay-mini">
+            <p class="text">Breakfast</p>
+          </div>
+        </div>
+        <div class="col-sm-3 bg-1" style="background-image:url(images/lunch.jpg); background-repeat: no-repeat;	overflow:hidden;height: 210px; ">
+          <div class="overlay-mini">
+            <p class="text">Lunch</p>
+          </div>
+        </div>
+        <div class="col-md-3 bg-1" style="background-image:url(images/dinner.jpg); background-repeat: no-repeat; overflow:hidden;height: 210px; ">
+          <div class="overlay-mini">
+            <p class="text">Supper</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="fasts">
+              <img src="images/fastFood1.jpg">
+              <img src="images/fastFood2.jpg">
+            </div>
+
+          </div>
+
+          <div class="col-md-6" style="text-align:left;">
+            <h2>Fast Food</h2>
+            <h4>You'll love our delicious fast food</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <button type="button">View Gallery &rarr; </button>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="container">
+        <div class="column">
+          <div class="row">
+            <div class="col-sm-6">
+              <p><img src="images/blendedfood.jpg" class="w3-border" alt="fastfood" style="float:left;padding:16px;width:50%;margin-left: 20%;
+   margin-right:10%;width;50px;height:300px"></p>
+            </div>
+
+            <div class="container">
+              <h3>Fast Food</h3>
+              <p>You'll love our delicious fast food</p>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque
+                eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum mollis pretium. Integer tincidunt.
+                Cras dapibus. Vivamus elementum semper nisi.
+                <button type="button">View Gallery &rarr; </button>
+                <p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="col-sm-6">
+            <p><img src="images/blendeddrinks.jpg" class="w3-border" alt="drinks" style="float:right;padding:16px;width:50%;margin-right:-50%;margin-left:10%;width;70px;height:300px"></p>
+            <h4>Drinks</h4>
+            <p>We also produce delicious drinks</p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+              pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum mollis pretium. Integer tincidunt. Cras
+              dapibus. Vivamus elementum semper nisi.</p>
+            <button type="button">View Gallery &rarr; </button>
+
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <img src="images/foodsBg.jpg" alt="foodsBg">
+
+        </div>
+      </div>
+    </div>
+
+    <img src="images/beefBurger.jpg" class="col-sm-3" alt="beefBurger">
+    <img src="images/chickenBurger.jpg" class="col-sm-3" alt="chickenBurger">
+    <img src="images/chickenPizza.jpg" class="col-sm-3" alt="chickenPizza">
+    </div>
+    </div>
+    </div>
+
     <div class="container">
       <div class="row">
-      <div class="col-md-3">
-      <p>Happy Hour</p>
-      <div class="party2">
-      <p1>Party Time</p1>
-  </div>
-  </div>
+        <div class="col-md-7 customers">
+          <h1>Our Happy Customers</h1>
+          <h3>George Richard</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus.</p>
+          <img src="images/p1.png" alt="" class="slides">
+          <img src="images/p2.png" alt="" class="slides">
+          <img src="images/p3.png" alt="" class="slides">
 
-
-        <div class="column">
-        <div class="col-sm-3">
-        <img src="images/breakfast.jpg" alt="breakfast">
-
-      </div>
-    </div>
-
-
-       <div class="column">
-       <div class="col-sm-3">
-       <img src="images/lunch.jpg" alt="lunch">
-    </div>
-  </div>
-
-      <div class="column">
-       <div class="col-sm-3">
-       <img src="images/dinner.jpg" alt="dinner">
-
-     </div>
-   </div>
- </div>
-
-   <div class="container">
-   <div class="column">
-   <div class="row">
-   <div class="col-sm-6">
-   <p><img src="images/blendedfood.jpg" class="w3-border" alt="fastfood" style="float:left;padding:16px;width:50%;margin-left: 20%;
-   margin-right:10%;width;50px;height:300px"></p>
- </div>
-
- <div class="container">
-     <h3>Fast Food</h3>
-     <p>You'll love our delicious fast food</p>
-     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-     Nullam dictum mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-     <button type="button">View Gallery &rarr; </button><p>
-
-  </div>
-</div>
-</div>
-
- <div class="container">
-   <div class="col-sm-6">
-    <p><img src="images/blendeddrinks.jpg" class="w3-border" alt="drinks" style="float:right;padding:16px;width:50%;margin-right:-50%;margin-left:10%;width;70px;height:300px"></p>
-    <h4>Drinks</h4>
-    <p>We also produce delicious drinks</p>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-    Nullam dictum mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
-    <button type="button">View Gallery &rarr; </button>
-
-</div>
-</div>
-</div>
-
-
-<div class="container">
-<div class="row">
-<img src="images/foodsBg.jpg" alt="foodsBg">
-
-</div>
-</div>
-</div>
-
-		<img src="images/beefBurger.jpg"  class="col-sm-3" alt="beefBurger">
-		<img src="images/chickenBurger.jpg"  class="col-sm-3" alt="chickenBurger">
-		<img src="images/chickenPizza.jpg"  class="col-sm-3" alt="chickenPizza">
         </div>
-    </div>
-</div>
 
-  <div class="container">
-  <div class="row">
-  <div class="col-md-7 customers">
-  <h1>Our Happy Customers</h1>
-  <h3>George Richard</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies, leo vel finibus elementum, tellus lorem molestie metus.</p>
-  <img src="images/p1.png" alt="" class="slides">
-  <img src="images/p2.png" alt="" class="slides">
-  <img src="images/p3.png" alt="" class="slides">
-
-  </div>
-
-  <div class="col-md-5 aboutSect" class="col-xs-5" id="line">
-  <h1>About Menu</h1>
-  <p>We are a team of seven.Ut wisi oncus et pellentesque. Molestie cras facilisis risus blandit, vel ab, vitae volutpat nam elementum donec, potenti mollis a rutrum, nunc in sit. Duis aenean leo dolor neque nec suspendisse, aptent per phasellus, nec orci viverra. Integer sit, nunc ac tempus nulla at, duis accumsan erat gravida. Vestibulum nec, eget a pede ipsum fringilla feugiat, ipsum rhoncus augue commodo consequat massa torquent. Dolor elit. Auctor augue. Habitant vitae l</p>
-      </div>
+        <div class="col-md-5 aboutSect" class="col-xs-5" id="line">
+          <h1>About Menu</h1>
+          <p>We are a team of seven.Ut wisi oncus et pellentesque. Molestie cras facilisis risus blandit, vel ab, vitae volutpat nam elementum donec, potenti mollis a rutrum, nunc in sit. Duis aenean leo dolor neque nec suspendisse, aptent per phasellus,
+            nec orci viverra. Integer sit, nunc ac tempus nulla at, duis accumsan erat gravida. Vestibulum nec, eget a pede ipsum fringilla feugiat, ipsum rhoncus augue commodo consequat massa torquent. Dolor elit. Auctor augue. Habitant vitae l</p>
+        </div>
       </div>
     </div>
-  </div>
+    </div>
 
-  <div class="container">
-  <div class="row">
-  <img src="images/subscribe.jpg" alt="subscribe">
-  <p>Get our daily food items delivered to your email</p>
+    <div class="container">
+      <div class="row">
+        <img src="images/subscribe.jpg" alt="subscribe">
+        <p>Get our daily food items delivered to your email</p>
 
-</div>
-</div>
+      </div>
+    </div>
 
-</body>
+  </body>
 
- <footer style="background-color:#F15A29">
-  <div class="container">
-    <div class="row">
-   <img src="images/footerlogos/logo_white.png">
-   <h1 class="text-white">MENU</h1>
-	<img src="images/footerlogos/facebook.png">
-	<img src="images/footerlogos/pinterest.png">
-	<img src="images/footerlogos/twitter.png"><br/>
-	<span class="icons">2016 Menu Restaurant</span>
+  <footer style="background-color:#F15A29">
+    <div class="container">
+      <div class="row">
+        <img src="images/footerlogos/logo_white.png">
+        <h1 class="text-white">MENU</h1>
+        <img src="images/footerlogos/facebook.png">
+        <img src="images/footerlogos/pinterest.png">
+        <img src="images/footerlogos/twitter.png"><br/>
+        <span class="icons">2016 Menu Restaurant</span>
 
-<html>
+        <html>
